@@ -6,31 +6,54 @@ html, body {
 .作品 {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* 可根據需要調整間距 */
+    margin-bottom: 20px;
+    justify-content: center;
 }
 
 .圖片 img {
     width: 200px; /* 可根據需要調整圖片寬度 */
     height: auto; /* 可根據需要調整圖片高度 */
     margin-right: 20px; /* 可根據需要調整圖片與描述之間的間距 */
+ 
 }
 
 .背景圖片 {
     position: relative;
+    bottom: 45px;
+    right: 40px; 
 }
 
 .首頁文字 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 35%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0);
     padding: 10px;
     text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.首頁內容 {
+    white-space: pre-wrap;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-30%, -10%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    text-align: left;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: normal;
+    width: 900px;
+    line-height: 20px;
 }
 
 .描述 {
-    flex: 1;
+    text-align: left;
 }
 
 .描述 h3 {
