@@ -5,16 +5,14 @@ html, body {
 
 .作品 {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
     justify-content: center;
 }
 
 .圖片 img {
-    width: 200px; /* 可根據需要調整圖片寬度 */
+    width: 400px; /* 可根據需要調整圖片寬度 */
     height: auto; /* 可根據需要調整圖片高度 */
-    margin-right: 20px; /* 可根據需要調整圖片與描述之間的間距 */
- 
+    margin-right: 70px; /* 可根據需要調整圖片與描述之間的間距 */
 }
 
 .背景圖片 {
@@ -26,41 +24,79 @@ html, body {
 .首頁文字 {
     position: absolute;
     top: 40%;
-    left: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0);
     padding: 10px;
     text-align: center;
-    font-family: serif;
-    font-weight: bold;
-    font-size: 72px;
+    font-family: 'Noto Serif SC Bold',serif;
+    font-size: 60px;
+    color: #2d2d2d;
 }
 
 .首頁內容 {
     white-space: pre-wrap;
     position: absolute;
-    top: 40%;
-    left: 35%;
+    top: 45%;
+    left: 45%;
     transform: translate(-30%, -10%);
     background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     text-align: left;
-    font-family: serif;
-    font-size: 28px;
+    font-family: 'Epilogue',serif;
+    font-size: 24px;
     font-weight: normal;
     width: 900px;
     line-height: 20px;
 }
 
 .描述 {
+    font-family: 'Epilogue',serif;
     text-align: left;
 }
 
 .描述 h3 {
+    font-family: 'Epilogue',serif;
     margin-top: 0;
+    font-size: 22px;
 }
 
 .描述 p {
+    font-family: 'Epilogue',serif;
     margin-bottom: 0;
+    width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('words/NotoSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('words/Epilogue-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif SC';
+    src: url('words/NotoSerifSC-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noto Serif SC Bold';
+    src: url('words/NotoSerifSC-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
