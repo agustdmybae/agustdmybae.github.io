@@ -2,3 +2,27 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.作品 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* 可根據需要調整間距 */
+}
+
+.圖片 img {
+    width: 200px; /* 可根據需要調整圖片寬度 */
+    height: auto; /* 可根據需要調整圖片高度 */
+    margin-right: 20px; /* 可根據需要調整圖片與描述之間的間距 */
+}
+
+.描述 {
+    flex: 1;
+}
+
+.描述 h3 {
+    margin-top: 0;
+}
+
+.描述 p {
+    margin-bottom: 0;
+}
