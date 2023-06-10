@@ -11,7 +11,7 @@ html, body {
 
 .圖片 img {
     width: 400px; /* 可根據需要調整圖片寬度 */
-    height: auto; /* 可根據需要調整圖片高度 */
+    height: 250px; /* 可根據需要調整圖片高度 */
     margin-right: 70px; /* 可根據需要調整圖片與描述之間的間距 */
 }
 
@@ -19,6 +19,13 @@ html, body {
     position: relative;
     bottom: 45px;
     right: 40px; 
+}
+
+.主頁圖片 {
+    position: absolute;
+    top: 75%;
+    right: -650px; /* 調整圖片與右邊的間距 */
+    transform: translateY(-50%);
 }
 
 .首頁文字 {
@@ -38,13 +45,13 @@ html, body {
     white-space: pre-wrap;
     position: absolute;
     top: 45%;
-    left: 45%;
+    left: 50%;
     transform: translate(-30%, -10%);
     background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     text-align: left;
     font-family: 'Epilogue',serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
     width: 900px;
     line-height: 20px;
