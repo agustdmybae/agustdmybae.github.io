@@ -15,6 +15,20 @@ html, body {
     margin-right: 20px; /* 可根據需要調整圖片與描述之間的間距 */
 }
 
+.背景圖片 {
+    position: relative;
+}
+
+.首頁文字 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
 .描述 {
     flex: 1;
 }
@@ -26,3 +40,4 @@ html, body {
 .描述 p {
     margin-bottom: 0;
 }
+
