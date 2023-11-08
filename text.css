@@ -19,7 +19,8 @@ html, body {
 }
 
 .home-intro,
-.home-title {
+.home-title,
+.home-profile {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -42,6 +43,10 @@ html, body {
     font-size: 22px;
     font-weight: normal;
     line-height: 30px;
+}
+
+.home-profile{
+    top:65%
 }
 
 .作品 {
