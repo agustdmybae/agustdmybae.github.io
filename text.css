@@ -159,6 +159,31 @@ main {
 }
 
 
+.extra-section{
+    border-top: 1px solid black;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+.more-about{
+    font-size: 24px;
+    font-family: 'Epilogue',serif;
+    line-height: 35px;
+
+}
+
+footer{
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(92,104,197,0.45);
+    width: 100vw;
+    text-align: center;
+}
+
 @font-face {
     font-family: 'Noto Serif';
     src: url('words/NotoSerif.ttf') format('truetype');
