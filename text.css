@@ -155,9 +155,13 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
+
+a:link {
+    color: blue;
+}
 
 .extra-section{
     border-top: 1px solid black;
@@ -169,7 +173,7 @@ main {
 }
 
 .more-about{
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Epilogue',serif;
     line-height: 35px;
 
