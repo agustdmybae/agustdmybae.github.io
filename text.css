@@ -73,9 +73,9 @@ header {
 .section-title {
     justify-content: center;
     font-family: 'Caveat',serif;
-    font-size: 3rem;
+    font-size: 3.8rem;
     font-weight: 400;
-    padding: 5rem;
+    padding-top: 5%;
 }
 
 .about-section {
@@ -84,18 +84,25 @@ header {
     align-items: center;
     width: 100%;
     height: 100vh;
-    border-top: 1px solid black;
 }
 
 .about-content {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    justify-content: center;
 }
 
 .about-text {
-    width: 40%;
+    width: 37%;
     font-family: 'Work Sans',sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+
+.about-pic {
+    transform: rotate(1.5deg);
+    width: 23%;
+    height: auto;
 }
 
 
