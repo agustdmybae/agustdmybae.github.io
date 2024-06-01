@@ -9,16 +9,10 @@ main {
     align-items: center;
 }
 
-.my-web {
-    max-width: 1280px;
-    height: 3400px;
-}
-
-.header {
-    display: flex;
+header {
     flex-direction: column;
-    align-items: center;
-    height: 900px;
+    width: 100%;
+    height: auto;
     position: relative;
 }
 
@@ -76,19 +70,10 @@ main {
     color: 000000;
 }
 
-.home-intro {
-    position: absolute;
-    top: 47%;
-    font-family: 'Epilogue',serif;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 30px;
-    
-}
-
 .home-profile {
     position: absolute;
     top: 45%;
+    width: 60%;
 }
 .作品 {
     display: flex;
