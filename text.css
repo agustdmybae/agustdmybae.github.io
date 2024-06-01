@@ -87,6 +87,16 @@ header {
     border-top: 1px solid black;
 }
 
+.about-content {
+    display: flex;
+    flex-direction: row
+}
+
+.about-text {
+    width: 40%;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 1.5rem;
+}
 
 
 .作品 {
