@@ -23,8 +23,8 @@ main {
 }
 
 .bg-pic {
-    width: 100vw;
-    height: 120vh;
+    width: 100%;
+    height: auto;
     top: 0;
     left: 0;
 }
@@ -57,10 +57,10 @@ main {
     
 }
 
-.home-profile{
-    top:65%
+.home-profile {
+    position: absolute;
+    top: 45%;
 }
-
 .作品 {
     display: flex;
     margin-bottom: 150px;
