@@ -93,10 +93,12 @@ header {
 }
 
 .about-text {
-    width: 37%;
+    width: 36%;
     font-family: 'Work Sans',sans-serif;
     font-size: 1.4rem;
     padding-top: 2rem;
+    font-weight: 350;
+    line-height: 1.8rem;
 }
 
 .about-pic {
@@ -107,10 +109,12 @@ header {
 
 
 .作品 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -122,12 +126,13 @@ header {
     width: 20%; /* Adjust as needed, creates a pseudo-element that has a dashed bottom border. */
     border-bottom: 1px dashed black;
     transform: translateX(-50%);
+    margin-bottom: 0;
 }
 
-.圖片 img {
-    width: 400px; /* 可根據需要調整圖片寬度 */
-    height: 250px; /* 可根據需要調整圖片高度 */
-    margin-right: 70px; /* 可根據需要調整圖片與描述之間的間距 */
+.圖片 {
+    width: 60%; /* 可根據需要調整圖片寬度 */
+    height: auto; /* 可根據需要調整圖片高度 */
+    padding-top: 3rem;
 }
 
 .背景圖片 {
@@ -160,6 +165,7 @@ header {
     line-height: 2rem;
     padding-bottom: 4rem;
     position: relative;
+    font-weight: 350;
 }
 
 .proj-text::after {
@@ -173,41 +179,42 @@ header {
 }
 
 .描述 {
-    font-family: 'Epilogue',serif;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 
 .描述 h3 {
-    font-family: 'Epilogue',serif;
-    margin-top: 0;
-    font-size: 24px;
-    padding-top: 5px;
-    float: left; /* 將 h3 浮動到左側 */
-    margin-right: 20px
+    font-family: 'Caveat',serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .描述 h4 {
-    font-family: 'Epilogue',serif;
+    font-family: 'Caveat',serif;
     margin-top: 0;
-    font-size: 24px;
-    padding-top: 5px;
+    font-size: 2rem;
+    font-weight: 400;
     color: #706d6d;
-
+    text-align: center;
 }
 
 .描述 p {
-    font-family: 'Epilogue',serif;
+    font-family: 'Work Sans',serif;
     margin-bottom: 0;
-    width: 650px;
+    max-width: 40rem;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-weight: 350;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
 
 
 a:link {
     color: blue;
+    font-family: 'Work Sans',serif;
+    font-size: 1.2rem;
 }
 
 .extra-section{
