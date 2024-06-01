@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background: url('materials/bg-ver2.png') no-repeat center center fixed; /* Background image */    
-    background-size: cover; /* Make the background cover the entire viewport */    
+    background-size: 100% 100%; /* Make the background cover the entire viewport */    
 }
 
 
