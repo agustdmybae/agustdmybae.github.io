@@ -42,8 +42,29 @@ main {
 #homenote-1 {
     position: absolute;
     top: 30%;
+    left: 10%;
+    transform: rotate(-2deg);
     font-family: 'Caveat',serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    color: 000000;
+}
+
+#homenote-2 {
+    position: absolute;
+    top: 36%;
+    left: 74%;
+    transform: rotate(3deg);
+    font-family: 'Caveat',serif;
+    font-size: 1.8rem;
+    color: 000000;
+}
+
+#homenote-3 {
+    position: absolute;
+    top: 63%;
+    left: 68%;
+    font-family: 'Caveat',serif;
+    font-size: 2.7rem;
     color: 000000;
 }
 
