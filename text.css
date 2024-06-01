@@ -107,9 +107,21 @@ header {
 
 
 .作品 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
-    margin-bottom: 150px;
     justify-content: center;
+    position: relative;
+}
+
+.作品::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 20%; /* Adjust as needed, creates a pseudo-element that has a dashed bottom border. */
+    border-bottom: 1px dashed black;
+    transform: translateX(-50%);
 }
 
 .圖片 img {
@@ -199,7 +211,6 @@ a:link {
 }
 
 .extra-section{
-    border-top: 1px solid black;
     padding-top: 70px;
     display: flex;
     flex-direction: row;
