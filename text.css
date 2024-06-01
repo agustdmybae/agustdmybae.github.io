@@ -1,7 +1,16 @@
-html, body {
+html {
     margin: 0;
     padding: 0;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('materials/bg-ver2.png') no-repeat center center fixed; /* Background image */    
+    background-size: cover; /* Make the background cover the entire viewport */    
+    min-height: 100vh; /* Ensure body covers at least the viewport height */
+}
+
 
 main {
     display: flex;
@@ -16,12 +25,6 @@ header {
     position: relative;
 }
 
-.bg-pic {
-    width: 100%;
-    height: auto;
-    top: 0;
-    left: 0;
-}
 
 .home-intro,
 .home-title,
