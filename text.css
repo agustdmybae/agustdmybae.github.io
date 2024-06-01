@@ -133,36 +133,32 @@ header {
 
 
 .proj-intro{
-    width: 1130px;
-    border-top: 1px solid black;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-
-
-
-.proj-text-container{
-    display: flex;
-    gap: 35px;
-}
-
-.emoji{
-    width: 65px;
-    height: 70px;
-}
-
 .proj-text {
     margin-top: 0;
     text-align: center;
-    font-size: 20px;
-    font-family: 'Epilogue',serif;
-    line-height: 30px;
-    padding-bottom: 80px;
+    font-size: 1.4rem;
+    font-family: 'Work Sans',serif;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+    position: relative;
 }
 
+.proj-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 20%; /* Adjust as needed, creates a pseudo-element that has a dashed bottom border. */
+    border-bottom: 1px dashed black;
+    transform: translateX(-50%);
+}
 
 .描述 {
     font-family: 'Epilogue',serif;
